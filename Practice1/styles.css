@@ -1,0 +1,30 @@
+*{
+    box-shadow: inset;
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.emoji{
+    font-size: 10rem;
+    cursor:pointer;
+    user-select:none;
+}
+.closed{
+    display:none;
+}
+.open{
+    display:none;
+}
+.active{
+    display:block;
+
+}
